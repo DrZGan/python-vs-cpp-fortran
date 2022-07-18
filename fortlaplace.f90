@@ -14,8 +14,8 @@ enddo
 
 call cpu_time(start)
 do k=1,2000
-    do i=2,npoints-1
     do j=2,npoints-1
+    do i=2,npoints-1
 	    u_xy(i,j)=u_xy(i,j)*0.1 + added(i,j)
     enddo
     enddo
